@@ -2,6 +2,9 @@
 
 Este é um simples gerenciador de tarefas desenvolvido em PHP, onde você pode cadastrar e visualizar tarefas. Abaixo estão listados alguns dos recursos da linguagem PHP utilizados neste código, conforme apresentados no vídeo do canal **Monolito PHP**.
 
+## Aplicação:
+[!img](img/gif.gif)
+
 ## Recursos Utilizados:
 
 - **isset**: Função utilizada para verificar se uma variável está definida. No contexto deste código, é usado para verificar se os parâmetros GET foram passados.
