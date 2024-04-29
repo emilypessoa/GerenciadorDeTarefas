@@ -34,3 +34,5 @@ Este código foi criado pelo autor do canal **Monolito PHP**. Para mais detalhes
 O código PHP é responsável por gerenciar as tarefas inseridas pelo usuário. Ele verifica se a sessão está iniciada, se a tarefa foi submetida através do método GET, adiciona a tarefa à lista de tarefas na sessão e permite limpar todas as tarefas. O HTML e CSS são responsáveis pela estrutura e estilo da página web.
 
 ### Contato:
+IG: emilyy.pesso
+GitHub: emilypessoa
