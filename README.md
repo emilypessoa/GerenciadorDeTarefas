@@ -5,13 +5,21 @@ Este é um simples gerenciador de tarefas desenvolvido em PHP, onde você pode c
 ## Recursos Utilizados:
 
 - **isset**: Função utilizada para verificar se uma variável está definida. No contexto deste código, é usado para verificar se os parâmetros GET foram passados.
+
 - **session_start()**: Inicia uma nova sessão ou resume a sessão existente. Neste caso, é utilizado para iniciar a sessão do PHP para armazenar as tarefas do usuário.
+
 - **$_SESSION**: Uma variável global do PHP usada para armazenar dados de sessão do usuário em todas as páginas. Aqui, é usada para manter as tarefas do usuário entre diferentes requisições.
+
 - **foreach**: Estrutura de controle utilizada para percorrer arrays. É utilizada para iterar sobre as tarefas armazenadas na sessão e exibi-las na página.
+
 - **array()**: Função que cria um novo array. Utilizada para inicializar o array de tarefas caso ele não exista na sessão.
+
 - **$_GET**: Uma variável global do PHP que é usada para coletar dados enviados por meio do método GET em um formulário HTML. Neste contexto, é usado para obter o nome da tarefa submetida pelo usuário.
+
 - **array_push()**: Adiciona um ou mais elementos no final de um array. Utilizado para adicionar novas tarefas ao array de tarefas na sessão.
+
 - **var_dump()**: Exibe informações sobre uma ou mais variáveis. Pode ser usado para depurar e entender a estrutura das variáveis, embora não seja comum em código de produção como este.
+
 - **unset()**: Remove uma variável especificada. Aqui, é utilizado para limpar o array de tarefas da sessão quando o usuário deseja remover todas as tarefas.
 
 ## Autor e Fonte:
